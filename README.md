@@ -4,7 +4,6 @@
   <img src="doc/image.png" alt="web preview">
 </p>
 
-````md
 A simple product viewer that fetches data from [DummyJSON](https://dummyjson.com/products) and displays it interactively in a web interface.
 
 ## 🚀 Features
@@ -14,14 +13,18 @@ A simple product viewer that fetches data from [DummyJSON](https://dummyjson.com
 - Click on a product to flip the card and view details.
 - Built with **HTML, CSS, node.js and JavaScript** .
 
+## 🔗 Deployment Link
+
+https://day2-training-arc-13523073.vercel.app
+
 ## 📌 Installation & Setup
 
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/your-repo/product-viewer.git
    cd product-viewer
    ```
-````
 
 2. **Run the Node.js server:**
 
@@ -29,7 +32,7 @@ A simple product viewer that fetches data from [DummyJSON](https://dummyjson.com
    node server.js
    ```
 
-3. **Open the website in your browser:**  
+3. **Open the website in your browser:**
    Go to **`http://localhost:3000`** in your browser.
 
 ## 📂 Project Structure
@@ -42,4 +45,8 @@ A simple product viewer that fetches data from [DummyJSON](https://dummyjson.com
 │── index.html          # Main HTML file
 │── server.js           # Node.js server
 │── README.md           # Project documentation
+```
+
+```
+
 ```
