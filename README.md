@@ -1,7 +1,7 @@
 # Day2-Training-ARC-13523073
 
 <p align="center">
-  <img src="image.png" alt="web preview">
+  <img src="doc/image.png" alt="web preview">
 </p>
 
 ````md
