@@ -1,0 +1,82 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-height: 200px;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ensures it covers the entire viewport width */
+    background: #1c7b20;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    color: whitesmoke;
+}
+
+
+
+/* Prevent content from being hidden behind the fixed header */
+body {
+    padding-top: 60px; /* Adjust based on header height */
+}
+
+  
+  #product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 15px;
+    margin-top: 4%;
+  }
+  
+  /* Product card */
+  .product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .product:hover {
+    transform: scale(1.02);
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Hidden details */
+  .product-details {
+    display: none;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .product.expanded .product-details {
+    display: block;
+  }
+  
